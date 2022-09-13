@@ -1,0 +1,67 @@
+AOP resuelve problemas TRANSVERSALES de la aplicación, como por ejemplo, creacion de registros (logs), controles de seguridad, control de tiempos, trazabilidad del software
+EN SPRING LAS CLASES DEBEN TENER ESTRUCTURA DEL TIPO BEAN. 
+¿BEAN? ¡BEAN!
+Un JAVA Bean (Java Frijol) es un estandar que hace referencia a la definición de clases de negocio con unos requisitos concretos.
+REQUISITOS CONCRETOS 
+
+Java Bean -> Propiedades privadas con metodos getters y Setters. 
+
+Persona -> Nombre
+           Apellido
+           Edad
+Getters y Setters
+Java Bean -> Debe tener un constructor PUBLICO sin parametros. 
+Ejemplo que no es : public persona (String nombre, Strin apellido, int edad) 
+Ejemplo que es: 
+Persona () 
+{
+}
+Java Bean -> Implementar Serializable. (Es una interfaz que viene integrada en Java)
+public class Personas implements Serializable
+
+
+Ejemplo de Java Bean: 
+import java.io.Serializable;
+public class Persona  implements Serializable{
+  private String nombre;
+  private String apellidos;
+  private int edad;
+  
+  public String getNombre() {
+    return nombre;
+  }
+  public void setNombre(String nombre) {
+    this.nombre = nombre;
+  }
+  public String getApellidos() {
+    return apellidos;
+  }
+  public void setApellidos(String apellidos) {
+    this.apellidos = apellidos;
+  }
+  public int getEdad() {
+    return edad;
+  }
+  public void setEdad(int edad) {
+    this.edad = edad;
+  }
+  public Persona(String nombre, String apellidos, int edad) {
+    super();
+    this.nombre = nombre;
+    this.apellidos = apellidos;
+    this.edad = edad;
+  }
+  public Persona() {
+    super();
+  }
+  
+}
+
+Aspectos
+Punto de corte
+Consejo o Advice (SON METODOS):
+@Before
+@After
+@AfterReturning
+@AfterThrowing
+@Around

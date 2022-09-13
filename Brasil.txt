@@ -1,0 +1,8 @@
+PAIS:  Brasil
+Continente: America del Sur
+Capital: Brasilia
+Habitantes: 212.600.000
+Clima predominante: Variado
+Salario Minimo: 500
+
+Informacion obtenida para el usuario Eduardo con ID 4687 el 13/09/2022

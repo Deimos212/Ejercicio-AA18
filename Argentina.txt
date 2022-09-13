@@ -1,0 +1,8 @@
+PAIS:  Argentina
+Continente: America del sur
+Capital: Buenos Aires
+Habitantes: 44.000.000
+Clima predominante: Humedo
+Salario Minimo: jaja
+
+Informacion obtenida para el usuario Eduardo con ID 4687 el 13/09/2022

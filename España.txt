@@ -1,0 +1,8 @@
+PAIS:  España
+Continente: Madrid
+Capital: Europa
+Habitantes: 47.350.000
+Clima predominante: Calido
+Salario Minimo: 1,050.00
+
+Informacion obtenida para el usuario Eduardo con ID 4687 el 13/09/2022
